@@ -1,0 +1,28 @@
+#labels wiki,seguridad,linux,checklist
+Uso: Checklist-Linux-sinreporte.pl opciones?
+
+- La ejecucion del script corre esto bajo su propia responsabilidad y en un ambiente controlado.
+
+opciones? Analisis que vamos a ejecutar
+
+    --usuariodefault Analizamos que los usuarios default del SO. no estan creados 
+
+    --permisosAD Analizamos los permisos de los archivos/directorios criticos 
+
+    --suidguidsticky Analizamos permisos especiales en todo el sistema 
+
+    --sinownergroup Buscamos en el sistema archivos/directorios sin owner 
+
+    --writeparatodos Buscamos en el sistema archivos/directorios con escritura 
+
+    --syslog Verificamos que este configurado un syslog externo 
+
+    --usuariosgrupos Asociamos los usuarios del sistema a sus respectivos grupos 
+
+    --expiracionUsuarios Verificamos las variables de expiracion de las cuentas de usuarios 
+
+    --seguridadnet Verificamos las variables de expiracion de las cuentas de usuarios 
+
+    --seguridadssh Verificamos las variables del servicio sshd 
+
+    --todos Ejecutamos todos los analisis 
