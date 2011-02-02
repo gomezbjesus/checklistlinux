@@ -29,6 +29,7 @@ opciones? Analisis que vamos a ejecutar
 
 
 situ@tux ~/ $ perl checklist.pl --usuariodefault
+<blockquote>
 -----------------------------------------------------------------------------------
 Sistema Operativo: Linux
 
@@ -38,6 +39,7 @@ Hostname: tux
 
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
+</blockquote>
 -----------------------------------------------------------------------------------
  -- Verificación de usuarios default
 -----------------------------------------------------------------------------------
