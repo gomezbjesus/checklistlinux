@@ -29,7 +29,7 @@ opciones? Analisis que vamos a ejecutar
 
 
 situ@tux ~/ $ perl checklist.pl --usuariodefault
-`-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 Sistema Operativo: Linux
 Release del Kernel: 2.6.31-21-generic
 Hostname: tux
@@ -44,4 +44,4 @@ Negativo: El usuario games existe
 Información: Se da por finalizado el proceso de chequeo
 Información: El reporte fue salvado con el nombre: tux-02-02-2011.html
 Información: Las recomendaciones fueron guardadas en el archivo: tux-02-02-2011-recomendacion.html
------------------------------------------------------------------------------------`
+-----------------------------------------------------------------------------------
