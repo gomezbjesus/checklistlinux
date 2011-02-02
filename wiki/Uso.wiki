@@ -29,9 +29,8 @@ opciones? Analisis que vamos a ejecutar
 
 
 situ@tux ~/ $ perl checklist.pl --usuariodefault
-<wiki:comment>
 -----------------------------------------------------------------------------------
-Sistema Operativo: Linux
+{ Sistema Operativo: Linux }
 Release del Kernel: 2.6.31-21-generic
 Hostname: tux
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
@@ -46,4 +45,3 @@ Información: Se da por finalizado el proceso de chequeo
 Información: El reporte fue salvado con el nombre: tux-02-02-2011.html
 Información: Las recomendaciones fueron guardadas en el archivo: tux-02-02-2011-recomendacion.html
 -----------------------------------------------------------------------------------
-</wiki:comment>
