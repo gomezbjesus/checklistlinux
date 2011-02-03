@@ -177,3 +177,52 @@ Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:5
 -----------------------------------------------------------------------------------
  -- Archivos sin owner y group
 -----------------------------------------------------------------------------------
+Negativo: Archivo sin owner/group /usr/lib/gtk-2.0/2.10.0/engines/libaurora.so
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/menu_prelight.png
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/maximize_prelight.png
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/restore.png
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/minimize_prelight.png
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/metacity-theme-2.xml
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/menu_small.png
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/metacity-theme-2.xml~
+
+Negativo: Archivo sin owner/group /usr/share/themes/Aurora/metacity-1/close.png
+
+
+== --writeparatodos ==
+situ@tux ~/ $ perl checklist-linux.pl --writeparatodos
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Archivos sin owner y group
+-----------------------------------------------------------------------------------
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/180.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/32.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/74.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/45.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/166.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/103.gif
+
+Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/50.gif
