@@ -241,3 +241,103 @@ Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:5
  -- Eventos mediante Syslog - AUTHPRIV
 -----------------------------------------------------------------------------------
 No existe El archivo /etc/syslog.conf no existe en el sistema o no puede ser accedido
+
+== --usuariosgrupos ==
+situ@tux ~/ $ perl checklist-linux.pl --usuariosgrupos
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Comprobacion de Usuarios/Grupos 
+-----------------------------------------------------------------------------------
+Informacion: El usuario www-data pertenece al grupo www-data (33)
+
+Informacion: El usuario postfix pertenece al grupo postfix (126)
+
+Informacion: El usuario messagebus pertenece al grupo messagebus (106)
+
+Informacion: El usuario lp pertenece al grupo lp (7)
+
+Informacion: El usuario bin pertenece al grupo bin (2)
+
+Informacion: El usuario nagios pertenece al grupo nagios (128)
+
+Informacion: El usuario daemon pertenece al grupo daemon (1)
+
+== --expiracionUsuarios ==
+situ@tux ~/ $ perl checklist-linux.pl --expiracionUsuarios
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Variables de expiracion de cuentas de usuarios
+-----------------------------------------------------------------------------------
+Negativo: El valor del parametro PASS_MAX_DAYS es incorrecto: 99999 != 90
+
+Negativo: El valor del parametro PASS_MIN_DAYS es incorrecto: 0 != 7
+
+Negativo: El valor del parametro PASS_WARN_AGE es incorrecto: 7 != 28
+
+== --seguridadnet ==
+situ@tux ~/ $ perl checklist-linux.pl --seguridadnet
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Variables de seguridad en la red
+-----------------------------------------------------------------------------------
+No existe el parametro net.ipv4.conf.all.accept_redirects= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.all.accept_source_route0 en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.all.rp_filter= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.all.secure_redirects= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.default.accept_redirects= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.default.accept_source_route= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.default.rp_filter= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.conf.default.secure_redirects= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.icmp_echo_ignore_broadcasts= en /etc/sysctl.conf
+
+No existe el parametro net.ipv4.tcp_max_syn_backlog= en /etc/sysctl.conf
+
+Positivo: El valor del parametro net.ipv4.tcp_syncookies= es correcto
+
+== --seguridadssh ==
+situ@tux ~/ $ perl checklist-linux.pl --seguridadssh
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Variables de seguridad en el servicio ssh
+-----------------------------------------------------------------------------------
+Negativo: El valor del parametro PermitRootLogin es incorrecto: yes != no
+
+Positivo: El valor del parametro Protocol es correcto
+
+Positivo: El valor del parametro UsePrivilegeSeparation es correcto
