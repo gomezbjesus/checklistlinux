@@ -50,6 +50,7 @@ Negativo: El usuario uucp existe
 Negativo: El usuario games existe
 </blockquote>
 
+
 situ@tux ~/ $ perl checklist.pl --usuariodefault
 <blockquote>
 -----------------------------------------------------------------------------------
@@ -61,6 +62,7 @@ Hostname: tux
 
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
+
 ----------------------------------------------------------------------------------- -- Verificar permisos en archivos y directorios
 -----------------------------------------------------------------------------------
 Negativo: El archivo /bin/ tiene como permiso 0755
