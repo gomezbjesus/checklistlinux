@@ -30,7 +30,7 @@ opciones? Analisis que vamos a ejecutar
 
 situ@tux ~/ $ perl checklist.pl --usuariodefault
 <blockquote>
------------------------------------------------------------------------------------
+---
 Sistema Operativo: Linux
 
 Release del Kernel: 2.6.31-21-generic
@@ -40,9 +40,9 @@ Hostname: tux
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
 
------------------------------------------------------------------------------------
+---
  -- Verificación de usuarios default
------------------------------------------------------------------------------------
+---
 Negativo: El usuario lp existe
 
 Negativo: El usuario uucp existe
@@ -53,7 +53,7 @@ Negativo: El usuario games existe
 
 situ@tux ~/ $ perl checklist.pl --permisosAD
 <blockquote>
------------------------------------------------------------------------------------
+---
 Sistema Operativo: Linux
 
 Release del Kernel: 2.6.31-21-generic
@@ -64,8 +64,9 @@ Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:5
 UTC 2010 i686 GNU/Linux
 
 
------------------------------------------------------------------------------------ -- Verificar permisos en archivos y directorios
------------------------------------------------------------------------------------
+---
+ -- Verificar permisos en archivos y directorios
+---
 Negativo: El archivo /bin/ tiene como permiso 0755
 
 Negativo: El archivo /boot/ tiene como permiso 0755
