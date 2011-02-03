@@ -51,7 +51,7 @@ Negativo: El usuario games existe
 </blockquote>
 
 
-situ@tux ~/ $ perl checklist.pl --usuariodefault
+situ@tux ~/ $ perl checklist.pl --permisosAD
 <blockquote>
 -----------------------------------------------------------------------------------
 Sistema Operativo: Linux
@@ -62,6 +62,7 @@ Hostname: tux
 
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
+
 
 ----------------------------------------------------------------------------------- -- Verificar permisos en archivos y directorios
 -----------------------------------------------------------------------------------
