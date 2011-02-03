@@ -32,21 +32,15 @@ situ@tux ~/ $ perl checklist.pl --usuariodefault
 <blockquote>
 ---
 Sistema Operativo: Linux
-
 Release del Kernel: 2.6.31-21-generic
-
 Hostname: tux
-
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
-
 ---
  -- Verificación de usuarios default
 ---
 Negativo: El usuario lp existe
-
 Negativo: El usuario uucp existe
-
 Negativo: El usuario games existe
 </blockquote>
 
@@ -55,55 +49,31 @@ situ@tux ~/ $ perl checklist.pl --permisosAD
 <blockquote>
 ---
 Sistema Operativo: Linux
-
 Release del Kernel: 2.6.31-21-generic
-
 Hostname: tux
-
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 
 UTC 2010 i686 GNU/Linux
-
-
 ---
  -- Verificar permisos en archivos y directorios
 ---
 Negativo: El archivo /bin/ tiene como permiso 0755
-
 Negativo: El archivo /boot/ tiene como permiso 0755
-
 Negativo: El archivo /etc/ tiene como permiso 0755
-
 Negativo: El archivo /etc/cron.daily/ tiene como permiso 0755
-
 Negativo: El archivo /etc/cron.hourly/ tiene como permiso 0755
-
 Negativo: El archivo /etc/cron.weekly/ tiene como permiso 0755
-
 No existe El archivo /etc/exports no existe en el sistema o no puede ser accedido
-
 No existe El archivo /etc/inittab no existe en el sistema o no puede ser accedido
-
 Negativo: El archivo /etc/motd tiene como permiso 0666
-
 No existe El archivo /etc/syslog.conf no existe en el sistema o no puede ser accedido
-
 Negativo: El archivo /home/ tiene como permiso 0755
-
 Negativo: El archivo /lib/ tiene como permiso 0755
-
 Negativo: El archivo /mnt/ tiene como permiso 0755
-
 No leible El archivo /root/ no puede ser leido
-
 Negativo: El archivo /root/ tiene como permiso 0700
-
 Negativo: El archivo /sbin/ tiene como permiso 0755
-
 Negativo: El archivo /tmp/ tiene como permiso 1777
-
 Negativo: El archivo /usr/ tiene como permiso 0755
-
 Negativo: El archivo /usr/bin/ tiene como permiso 0755
-
 Negativo: El archivo /var/ tiene como permiso 0755
 </blockquote>
