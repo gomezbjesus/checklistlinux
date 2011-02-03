@@ -1,11 +1,11 @@
 #labels wiki,seguridad,linux,checklist
-= Uso del script =
+= Uso de la aplicación =
 
 Uso: checklist-linux.pl opciones
 
-- La ejecucion del script corre esto bajo su propia responsabilidad y en un ambiente controlado.
+- La ejecución de la aplicación corre bajo su propia responsabilidad y debe ser en un ambiente controlado.
 
-opciones? Analisis que vamos a ejecutar
+opciones Analisis que vamos a ejecutar
 
     --usuariodefault Analizamos que los usuarios default del SO. no estan creados 
 
