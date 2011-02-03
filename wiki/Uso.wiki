@@ -41,6 +41,8 @@ Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:5
  -- Verificacion de usuarios default
 -----------------------------------------------------------------------------------
 Negativo: El usuario lp existe
+
 Negativo: El usuario uucp existe
+
 Negativo: El usuario games existe
 -----------------------------------------------------------------------------------
