@@ -1,5 +1,7 @@
 #labels wiki,seguridad,linux,checklist
-Uso: Checklist-Linux-sinreporte.pl opciones?
+= Uso del script =
+
+Uso: checklist-linux.pl opciones
 
 - La ejecucion del script corre esto bajo su propia responsabilidad y en un ambiente controlado.
 
