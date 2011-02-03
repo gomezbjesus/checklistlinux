@@ -48,7 +48,6 @@ Negativo: El usuario lp existe
 Negativo: El usuario uucp existe
 
 Negativo: El usuario games existe
------------------------------------------------------------------------------------
 
 
 == --permisosAD ==
@@ -104,3 +103,64 @@ Negativo: El archivo /usr/bin/ tiene como permiso 0755
 
 Negativo: El archivo /var/ tiene como permiso 0755
 -----------------------------------------------------------------------------------
+
+
+
+== --suidguidsticky ==
+situ@tux ~/ $ perl checklist-linux.pl --suidguidsticky
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Verificacion de Suid Bit / Guid Bit / Sticky Bit
+-----------------------------------------------------------------------------------
+Informacion: Se detecto suid/gsid en /srv/cvs
+
+Informacion: Se detecto suid/gsid en /srv/cvs/CVSROOT
+
+Informacion: Se detecto suid/gsid en /srv/cvs/CVSROOT/Emptydir
+
+Informacion: Se detecto suid/gsid en /bin/ping6
+
+Informacion: Se detecto suid/gsid en /bin/umount
+
+Informacion: Se detecto suid/gsid en /bin/su
+
+Informacion: Se detecto suid/gsid en /bin/mount
+
+Informacion: Se detecto suid/gsid en /bin/ping
+
+Informacion: Se detecto suid/gsid en /bin/fusermount
+
+Informacion: Se detecto sticky bit en /var/spool/samba
+
+Informacion: Se detecto sticky bit en /var/spool/cups/tmp
+
+Informacion: Se detecto sticky bit en /var/spool/cups-pdf/ANONYMOUS
+
+Informacion: Se detecto sticky bit en /var/spool/cron/atspool
+
+Informacion: Se detecto sticky bit en /var/spool/cron/crontabs
+
+Informacion: Se detecto sticky bit en /var/spool/cron/atjobs
+
+Informacion: Se detecto sticky bit en /var/spool/postfix/maildrop
+
+Informacion: Se detecto suid/gsid en /var/spool/postfix/public
+
+Informacion: Se detecto sticky bit en /var/crash
+
+Informacion: Se detecto sticky bit en /var/log/gdm
+
+Informacion: Se detecto suid/gsid en /var/log/exim4
+
+Informacion: Se detecto suid/gsid en /var/log/nagios3
+
+Informacion: Se detecto suid/gsid en /var/log/nagios3/archives
+
+Informacion: Se detecto suid/gsid en /var/log/mysql
