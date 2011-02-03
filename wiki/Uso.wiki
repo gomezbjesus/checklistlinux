@@ -102,7 +102,6 @@ Negativo: El archivo /usr/ tiene como permiso 0755
 Negativo: El archivo /usr/bin/ tiene como permiso 0755
 
 Negativo: El archivo /var/ tiene como permiso 0755
------------------------------------------------------------------------------------
 
 
 
@@ -164,3 +163,17 @@ Informacion: Se detecto suid/gsid en /var/log/nagios3
 Informacion: Se detecto suid/gsid en /var/log/nagios3/archives
 
 Informacion: Se detecto suid/gsid en /var/log/mysql
+
+== --sinownergroup ==
+situ@tux ~/ $ perl checklist-linux.pl --sinownergroup
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Archivos sin owner y group
+-----------------------------------------------------------------------------------
