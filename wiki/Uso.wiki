@@ -211,7 +211,7 @@ Hostname: tux
 
 Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
 -----------------------------------------------------------------------------------
- -- Archivos sin owner y group
+ -- Verificar Archivos con write para todos los usuarios
 -----------------------------------------------------------------------------------
 Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/180.gif
 
@@ -226,3 +226,18 @@ Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/166.
 Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/103.gif
 
 Negativo: Archivo con write para todos los usuarios /var/www/monitoreo/cimg/50.gif
+
+== --syslog ==
+situ@tux ~/ $ perl checklist-linux.pl --syslog
+-----------------------------------------------------------------------------------
+Sistema Operativo: Linux
+
+Release del Kernel: 2.6.31-21-generic
+
+Hostname: tux
+
+Datos Adicionales: Linux tux 2.6.31-21-generic #59-Ubuntu SMP Wed Mar 24 07:28:56 UTC 2010 i686 GNU/Linux
+-----------------------------------------------------------------------------------
+ -- Eventos mediante Syslog - AUTHPRIV
+-----------------------------------------------------------------------------------
+No existe El archivo /etc/syslog.conf no existe en el sistema o no puede ser accedido
