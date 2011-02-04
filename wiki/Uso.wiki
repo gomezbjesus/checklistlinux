@@ -341,3 +341,8 @@ Negativo: El valor del parametro PermitRootLogin es incorrecto: yes != no
 Positivo: El valor del parametro Protocol es correcto
 
 Positivo: El valor del parametro UsePrivilegeSeparation es correcto
+
+
+[http://artsweb.com.ar/terminal.png]
+
+[http://artsweb.com.ar/browser.png]
